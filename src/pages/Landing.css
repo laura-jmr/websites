@@ -1,0 +1,15 @@
+@keyframes slide {
+    0%{background-position: 0 0;}
+	100%{background-position: 100vw 0;}
+    
+  }
+  #landing-background {
+    background: url("../../public/background.jpg") repeat-x;
+    position: absolute;
+    z-index: -999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 300px;
+    animation: slide 40s linear infinite;
+}
